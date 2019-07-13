@@ -1,0 +1,15 @@
+var person = {
+    name: "Novitasari",              																			                    //string
+    age: 20,                   																					                         	//number
+    address: "Jl. Margonda city no.73",     														              //string
+    hobbies: ['Membaca', 'Surfing', 'Editing'],       																            //Array
+    is_married: "false",      																			                           	 //Boolean
+    list_school: [{name: 'SMA1N CIKAKAK',year_in: 2014, year_out:2017,major:'Sistem Informasi'}],        //Array of Object
+    skills: [{skill_name:'Web Designer', Level:"Beginner"}] ,                                           //Array of Object
+    interest_in_coding: "True"                                                                          //Boolean
+}
+
+// string JSON
+var jsonString = JSON.stringify(person);
+
+console.log(jsonString);
